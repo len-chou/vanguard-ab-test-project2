@@ -2,7 +2,7 @@
 
 Module 2 project · Ironhack Data Analytics bootcamp
 
-**Team:** [Name 1] · [Name 2] · [Name 3] · [Name 4]
+**Team:** Effie · Jovana · Fatma · Lena
 
 ---
 
