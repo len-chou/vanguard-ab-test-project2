@@ -325,35 +325,6 @@ vanguard-ab-test/
 
 ---
 
-## How to run
-
-```bash
-git clone https://github.com/[your-username]/vanguard-ab-test.git
-cd vanguard-ab-test
-pip install pandas numpy matplotlib seaborn scipy statsmodels
-jupyter notebook
-```
-
-Run `day1-2_cleaning.ipynb` first. It loads the raw data from GitHub and saves `df_clients.csv` and `df_clean.csv`. The other notebooks read those two files.
-
-> Some notebooks use an absolute local path (`FOLDER = '/Users/...'`). Change it to `data/` before running.
-
----
-
-## Project management
-
-We organised the work on a Trello board (To do → Doing → Review → Done).
-
-🔗 **[Trello board link]**
-
-| Team member | Main tasks |
-|---|---|
-| [Name 1] | [cleaning, merging] |
-| [Name 2] | [KPIs, funnel] |
-| [Name 3] | [hypothesis tests] |
-| [Name 4] | [Tableau, README] |
-
----
 
 ## Challenges and learnings
 
@@ -366,7 +337,6 @@ We organised the work on a Trello board (To do → Doing → Review → Done).
 
 ## Links
 
-- 📊 Slides: [presentation link]
-- 📈 Tableau: [Tableau Public link]
-- 📋 Trello: [Trello board link]
+- 📊 Slides: https://docs.google.com/presentation/d/17-QO7QaFfOXWBlj-AraZ0s34IyKJZsDyeo-zmNbkmmU/edit?slide=id.h68fc07b349e174d1_1_0#slide=id.h68fc07b349e174d1_1_0
+- 📈 Tableau: https://public.tableau.com/app/profile/jovana.zivkovic2133/viz/Completation-Rate-Vanguard-AB-Test/VanguardABtestdidthenewdesignhelpclientsfinish?publish=yes
 - 💾 Data: [data-bootcamp-v4 / files_for_project](https://github.com/data-bootcamp-v4/lessons/tree/main/5_6_eda_inf_stats_tableau/project/files_for_project)
